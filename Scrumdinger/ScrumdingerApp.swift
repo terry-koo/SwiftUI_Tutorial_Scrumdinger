@@ -7,11 +7,15 @@
 
 import SwiftUI
 
+// FIXME: hello
+// TODO: world
 @main
 struct ScrumdingerApp: App {
     var body: some Scene {
         WindowGroup {
-            MeetingView()
+            ScrumsView(scrums: DailyScrum.sampleData)
         }
     }
 }
+
+// MARK: Terry
