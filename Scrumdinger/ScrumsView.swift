@@ -15,7 +15,6 @@ struct ScrumsView: View {
             ForEach(scrums) { scrum in
                 CardView(scrum: scrum)
                     .listRowBackground(scrum.theme.mainColor)
-            
             }
         }
     }

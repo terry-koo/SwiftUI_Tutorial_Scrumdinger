@@ -7,8 +7,7 @@
 
 import SwiftUI
 
-// FIXME: hello
-// TODO: world
+
 @main
 struct ScrumdingerApp: App {
     var body: some Scene {
